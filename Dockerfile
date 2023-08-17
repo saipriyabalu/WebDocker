@@ -1,5 +1,5 @@
 #FROM node:18
-FROM --platform=linux/amd64 node:11.15
+FROM --platform=linux/arm64 node:11.15
 
 # Create app directory
 WORKDIR /usr/src/app
